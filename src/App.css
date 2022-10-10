@@ -1,0 +1,17 @@
+.home , .file , .setting , .recyclebin{
+    display: flex;
+    height: 90vh;
+    /* align-items: center;
+    justify-content: center; */
+    font-size: 1.5rem;
+} 
+
+.Team,.profile {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    /* align-items: center; */
+    /* 
+     */
+    font-size: 1.5rem;
+}
