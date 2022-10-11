@@ -8,6 +8,7 @@ const Team = () => {
 <Sidebar/>
     <div className='Team'>
        <h1>Team</h1>
+       <p>we make we move</p>
     </div>
         
  </>
