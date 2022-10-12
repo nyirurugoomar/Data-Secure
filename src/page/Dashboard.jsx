@@ -80,8 +80,8 @@ const Dashboard = () => {
           <div className='grid grid-cols-1 lg:grid-cols-3  gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
               <div className='bg-white rounded-xl shadow-2xl'>
                   <div className='p-8'>
-                      <PhoneIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
-                      <h3 className='font-bold text-2xl my-6'>Sales</h3>
+                      <PhoneIcon className='w-16 p-4 bg-black text-white rounded-lg mt-[-4rem]' />
+                      <h3 className='font-bold text-2xl my-6 text-indigo-600'>Sales</h3>
                       <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p>
                   </div>
                   <div className='bg-slate-100 pl-8 py-4'>
@@ -90,8 +90,8 @@ const Dashboard = () => {
               </div>
               <div className='bg-white rounded-xl shadow-2xl'>
                   <div className='p-8'>
-                      <SupportIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
-                      <h3 className='font-bold text-2xl my-6'>Technical Support</h3>
+                      <SupportIcon className='w-16 p-4 bg-black text-white rounded-lg mt-[-4rem]' />
+                      <h3 className='font-bold text-2xl my-6 text-indigo-600'>Technical Support</h3>
                       <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p>
                   </div>
                   <div className='bg-slate-100 pl-8 py-4'>
@@ -100,8 +100,8 @@ const Dashboard = () => {
               </div>
               <div className='bg-white rounded-xl shadow-2xl'>
                   <div className='p-8'>
-                      <ChipIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
-                      <h3 className='font-bold text-2xl my-6'>Media Inquiries</h3>
+                      <ChipIcon className='w-16 p-4 bg-black text-white rounded-lg mt-[-4rem]' />
+                      <h3 className='font-bold text-2xl my-6 text-indigo-600'>Media Inquiries</h3>
                       <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p>
                   </div>
                   <div className='bg-slate-100 pl-8 py-4'>
