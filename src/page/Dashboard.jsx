@@ -85,7 +85,7 @@ const Dashboard = () => {
                       <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p>
                   </div>
                   <div className='bg-slate-100 pl-8 py-4'>
-                      <p className='flex items-center text-indigo-600'>Contact Us <ArrowSmRightIcon className='w-5 ml-2' /></p>
+                      {/* <p className='flex items-center text-indigo-600'>Contact Us <ArrowSmRightIcon className='w-5 ml-2' /></p> */}
                   </div>
               </div>
               <div className='bg-white rounded-xl shadow-2xl'>
@@ -95,7 +95,7 @@ const Dashboard = () => {
                       <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p>
                   </div>
                   <div className='bg-slate-100 pl-8 py-4'>
-                      <p className='flex items-center text-indigo-600'>Contact Us <ArrowSmRightIcon className='w-5 ml-2' /></p>
+                     
                   </div>
               </div>
               <div className='bg-white rounded-xl shadow-2xl'>
@@ -105,7 +105,7 @@ const Dashboard = () => {
                       <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p>
                   </div>
                   <div className='bg-slate-100 pl-8 py-4'>
-                      <p className='flex items-center text-indigo-600'>Contact Us <ArrowSmRightIcon className='w-5 ml-2' /></p>
+                      {/* <p className='flex items-center text-indigo-600'>Contact Us <ArrowSmRightIcon className='w-5 ml-2' /></p> */}
                   </div>
               </div>
           </div>
