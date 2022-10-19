@@ -6,6 +6,15 @@ import LockIcon from '@mui/icons-material/Lock';
 import { PhoneIcon, ArrowSmRightIcon } from '@heroicons/react/outline';
 import {ChipIcon, SupportIcon} from '@heroicons/react/solid'
 import CountUp from 'react-countup';
+import aboutImg from '../assets/Technologies .png';
+import {
+    Tabs,
+    TabsHeader,
+    TabsBody,
+    Tab,
+    TabPanel,
+  } from "@material-tailwind/react";
+import { SkillsData } from './SkillsData';
 
 const Dashboard = () => {
     return (
@@ -81,7 +90,7 @@ const Dashboard = () => {
               <div className='bg-white rounded-xl shadow-2xl'>
                   <div className='p-8'>
                       <PhoneIcon className='w-16 p-4 bg-black text-white rounded-lg mt-[-4rem]' />
-                      <h3 className='font-bold text-2xl my-6 text-indigo-600'>Sales</h3>
+                      <h3 className='font-bold text-2xl my-6 text-indigo-600'>Sales Support</h3>
                       <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p>
                   </div>
                   <div className='bg-slate-100 pl-8 py-4'>
@@ -101,7 +110,7 @@ const Dashboard = () => {
               <div className='bg-white rounded-xl shadow-2xl'>
                   <div className='p-8'>
                       <ChipIcon className='w-16 p-4 bg-black text-white rounded-lg mt-[-4rem]' />
-                      <h3 className='font-bold text-2xl my-6 text-indigo-600'>Media Inquiries</h3>
+                      <h3 className='font-bold text-2xl my-6 text-indigo-600'>Technical Support</h3>
                       <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p>
                   </div>
                   <div className='bg-slate-100 pl-8 py-4'>
@@ -110,8 +119,42 @@ const Dashboard = () => {
               </div>
           </div>
       </div>
-      </div>
-     </> 
+
+      <h1 className='text-center text-black font-bold text-lg mt-12'>Our Technologies Tools we</h1>
+
+        <div class="flex flex-wrap mt-12 before:lg:grid-cols-3">
+        
+            <div class="w-1/2 ml-auto text-center">
+                
+            <img className='w-full' src={aboutImg}alt='/'/>
+            </div>
+                            {/* skills tab */}
+            <div class="w-1/2 mr-auto text-center bg-slate-50">
+                
+                <Tabs id="custom-animation" value="html">
+                <TabsHeader>
+                    {SkillsData.map(({ label, value }) => (
+                    <Tab key={value} value={value} style={{color:'black'}}>
+                        {label}
+                    </Tab>
+                    ))}
+                </TabsHeader>
+                <TabsBody animate={{
+          mount: { y: 0 },
+          unmount: { y: 250 },
+        }}>
+                    {SkillsData.map(({ value, desc }) => (
+                    <TabPanel key={value} value={value}>
+                        {desc}
+                    </TabPanel>
+                    ))}
+                </TabsBody>
+                </Tabs>
+
+            </div>
+        </div>
+     </div>
+ </> 
       
     )
 }

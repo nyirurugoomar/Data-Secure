@@ -1,6 +1,6 @@
 import React from 'react'
 import Sidebar from "../components/Sidebar"
-import profile from '../assets/profile-image.webp'
+
 
 
 
