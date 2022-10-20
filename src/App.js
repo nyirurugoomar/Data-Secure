@@ -34,14 +34,15 @@ function App() {
      <div className="Dashboard">
        <ProtectedRoute> 
           <Route path="/account" component={Account}/>
-       </ProtectedRoute>
-          {/* <Sidebar/> */}
           <Route path="/dashboard" component={Dashboard} />
           <Route path="/files" component={Files} />
           <Route path="/recyclebin" component={Recyclebin} />
           <Route path="/team" component={Team} />
           <Route path="/setting" component={Setting} />
           <Route path="/profile" component={Profile} />
+       </ProtectedRoute>
+          {/* <Sidebar/> */}
+          
      </div> 
     
      <Navbar/> 

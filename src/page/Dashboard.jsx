@@ -140,12 +140,14 @@ const Dashboard = () => {
                     ))}
                 </TabsHeader>
                 <TabsBody animate={{
-          mount: { y: 0 },
-          unmount: { y: 250 },
-        }}>
-                    {SkillsData.map(({ value, desc }) => (
+                                    mount: { y: 0 },
+                                    unmount: { y: 250 },
+                                    }}>
+                    {SkillsData.map(({ value, desc,image }) => (
                     <TabPanel key={value} value={value}>
                         {desc}
+                        
+                        
                     </TabPanel>
                     ))}
                 </TabsBody>
