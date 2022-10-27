@@ -143,7 +143,7 @@ const Dashboard = () => {
                                     mount: { y: 0 },
                                     unmount: { y: 250 },
                                     }}>
-                    {SkillsData.map(({ value, desc,image }) => (
+                    {SkillsData.map(({ value, desc}) => (
                     <TabPanel key={value} value={value}>
                         {desc}
                         

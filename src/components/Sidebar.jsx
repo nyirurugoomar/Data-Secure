@@ -37,6 +37,7 @@ const Navbar = () => {
                 <Link to="#" className="menu-bars font-mono">
                     <div style={{color: 'white',marginLeft:'5rem', fontSize:'1rem',fontFamily:'Montserrat'}}>
                      <p>Welcame,{user && user.email}</p>
+                     
                     </div>
                 
                     <FaBars onClick={showSidebar} />  

@@ -6,7 +6,6 @@ import {UserAuth} from '../context/AuthContext'
 function Login() {
   const [email,setEmail] = useState('')
   const [password,setPassword] = useState('')
-  const [name,setName] = useState('')
   const [error,setError] = useState('')
   const history = useHistory()
   
@@ -31,13 +30,10 @@ const {createUser} = UserAuth()
     <div className="bg-white px-10 py-8 rounded-xl w-screen shadow-md max-w-sm">
       <div className="space-y-4">
         <h1 className="text-center text-2xl font-semibold text-gray-600">Sign Up for New Account</h1>
-        <div>
-          <label for="name" className="block mb-1 text-gray-600 font-semibold">Name</label>
-          <input type="name" onChange={(e)=>setName(e.target.value)} className="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full" />
-        </div>
+        
 
         <div>
-          <label for="email" className="block mb-1 text-gray-600 font-semibold">EMAIL</label>
+          <label for="email" className="block mb-1 text-gray-600 font-semibold">Email</label>
           <input type="email" onChange={(e)=>setEmail(e.target.value)}  className="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full" />
         </div>
         <div>
